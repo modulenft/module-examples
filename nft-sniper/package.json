@@ -1,0 +1,16 @@
+{
+  "name": "nft-sniper",
+  "version": "1.0.0",
+  "description": "Module Example for purchasing NFTs using Module Listings Endpoint",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@opensea/seaport-js": "^1.0.8",
+    "dotenv": "^16.0.3",
+    "ethereumjs-tx": "^2.1.2",
+    "web3": "^1.8.0"
+  }
+}

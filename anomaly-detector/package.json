@@ -1,0 +1,22 @@
+{
+  "name": "anomaly-detector",
+  "packageManager": "yarn@3.0.1",
+  "version": "1.0.0",
+  "main": "dist/src/index",
+  "types": "dist/src/index",
+  "scripts": {
+    "start": "node dist/src/index.js",
+    "build": "tsc",
+    "clean": "rm -r dist/*"
+  },
+  "devDependencies": {
+    "@types/node": "~16.11.6",
+    "tsutils": "~3.21.0",
+    "typescript": "~4.5.3"
+  },
+  "dependencies": {
+    "@types/colors": "^1.2.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3"
+  }
+}
